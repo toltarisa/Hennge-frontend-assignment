@@ -1,0 +1,65 @@
+.card-wrapper {
+    font-family: 'Open Sans';
+    display: none;
+    padding: 5px 0px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 5px;;
+    .card-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .general-info {
+            padding-top: 2px;
+            display: flex;
+            justify-content: flex-start;
+            .tofrom-icon {
+                .icon-mail-sp {
+                    width:30px;
+                    height: 30px;
+                }
+            }
+            .tofrom-info {
+                position: relative;
+                bottom: 7px;
+                font-size: 16px;;
+                p {
+                    margin:0;
+                }
+                .text-bold {
+                    font-weight: bold;
+                    margin:0;
+                }
+            }
+        }
+
+        .date-info{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 10px;
+            p {
+                margin: 0;
+                margin-right: 2px;
+                font-size: 14px;
+            }
+            .right-icon{
+                width:7px;
+                height: 7px;;
+            }
+        }
+    }
+
+    .card-body-info {
+        padding: 10px;
+        p {
+            margin:0;
+            font-size: 16px;;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card-wrapper {
+        display: block;
+    }
+}

@@ -1,0 +1,72 @@
+.mobileDisappear {
+    .table {
+        font-family: 'Open Sans';
+        margin-top:15px;
+        .thead-light {
+            tr {
+                .col {
+                    font-size: 14px;
+
+                    span {
+                        img {
+                            width: 10px;;
+                            width:10px;
+                            margin-left:10px;
+                        }
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                cursor: pointer;
+    
+                &:hover {
+                    td {
+                        transition:  ease .8s;
+                        color:#3283d9;
+                        
+                    }
+                    .pin {
+                        div {
+                            .clip {
+                                fill:#3283d9 ;
+                            }
+                        }
+                    }
+
+                    
+                    
+                }
+                td{
+                    .clip {
+                        width:15px;
+                        margin-left: 10px;
+                    }    
+                }
+    
+                .pin {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .notification {
+                    .notif-pill {
+                        padding:0px 5px;
+                        float: right;
+                        color:#fff;
+                        background-color: gray;
+                        border-radius: 5px;;
+                        height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mobileDisappear{
+        display: none;
+    }
+}

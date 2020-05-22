@@ -1,0 +1,33 @@
+.empty-wrapper {
+    height: 60vh;
+
+   .container {
+       height:100%;
+    .elements-wrapper {
+        height: 100%;
+
+        .notification-count {
+            padding-top:20px;
+            font-weight: bold;
+            color:gray;
+            font-size: 17px;
+            margin:0;
+            .zero {
+                font-size: 25px;;
+            }
+        }
+    
+        hr {
+            margin-top:10px;
+        }
+
+        .main-logo {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+   }
+   
+}

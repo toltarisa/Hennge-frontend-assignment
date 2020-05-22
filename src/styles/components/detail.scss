@@ -1,0 +1,53 @@
+.detail-wrapper {
+    height: 100vh;
+    font-family: 'Open Sans';
+    .container {
+        height: 100%;;
+        .template-wrapper {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .mail-details {
+                box-shadow: 0 5px 10px #777;
+                padding: 15px;
+                width:70%;
+                height: 70%;
+                border:1px solid #ddd;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .go-back {
+                    .back{
+                        border: none;
+                        outline: none;
+                        padding: 5px 10px;
+                        background: red;
+                        color: white;
+                    }
+                }
+                .mail-top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .from {
+                        font-size: 15px;
+                        p {
+                            margin:0;
+                        }
+                        .bold {
+                            font-weight: bold;
+                        }
+                    }
+                }
+
+                .mail-body {
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
