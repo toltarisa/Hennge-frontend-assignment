@@ -5,7 +5,8 @@ import searchIcon from '../assets/icon_search.svg';
 import { Link } from 'react-router-dom';
 export default function Datepicker({whereTo}) {
     return (
-        <div className="datepicker-wrapper">
+      <>
+          <div className="datepicker-wrapper">
             <div className="datepicker-select">
                 <img className="calendar" src={calendarIcon} alt="calendar-icon"/>
                 <p>2020/1/1 - 2020/1/</p>
@@ -15,6 +16,9 @@ export default function Datepicker({whereTo}) {
                     <img src={searchIcon} alt="search-icon" />
                </Link>
             </div> 
+           
         </div>
+         <em>I didn't implemented date picker dynamically , you just can click search icon to see email list</em>
+      </>
     )
 }
